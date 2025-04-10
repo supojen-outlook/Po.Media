@@ -7,20 +7,27 @@
     
     <!-- About Nuget -->
     <PackageId>Po.Media</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Po Jen Su</Authors>
     <Product>Media Upload</Product>
     <Description>This is a Media Uploader (S3)</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>Https://supojen</PackageProjectUrl>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageIcon>icon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/supojen-outlook/Po.Media</PackageProjectUrl>
     <PackageTags>Media;S3;</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile> 
+    <PackageIconUrl>icon.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="/" />
+    <None Include="icon.png" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AWSSDK.S3" Version="3.7.416.7" />
-    <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.0" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,12 @@
+/Users/supojen/2025/Nuget/Po.Media/bin/Release/net9.0/Po.Media.deps.json
+/Users/supojen/2025/Nuget/Po.Media/bin/Release/net9.0/Po.Media.dll
+/Users/supojen/2025/Nuget/Po.Media/bin/Release/net9.0/Po.Media.pdb
+/Users/supojen/2025/Nuget/Po.Media/obj/Release/net9.0/Po.Media.csproj.AssemblyReference.cache
+/Users/supojen/2025/Nuget/Po.Media/obj/Release/net9.0/Po.Media.GeneratedMSBuildEditorConfig.editorconfig
+/Users/supojen/2025/Nuget/Po.Media/obj/Release/net9.0/Po.Media.AssemblyInfoInputs.cache
+/Users/supojen/2025/Nuget/Po.Media/obj/Release/net9.0/Po.Media.AssemblyInfo.cs
+/Users/supojen/2025/Nuget/Po.Media/obj/Release/net9.0/Po.Media.csproj.CoreCompileInputs.cache
+/Users/supojen/2025/Nuget/Po.Media/obj/Release/net9.0/Po.Media.dll
+/Users/supojen/2025/Nuget/Po.Media/obj/Release/net9.0/refint/Po.Media.dll
+/Users/supojen/2025/Nuget/Po.Media/obj/Release/net9.0/Po.Media.pdb
+/Users/supojen/2025/Nuget/Po.Media/obj/Release/net9.0/ref/Po.Media.dll

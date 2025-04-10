@@ -48,7 +48,15 @@
               "target": "Package",
               "version": "[3.7.416.7, )"
             },
-            "Microsoft.Extensions.Options": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
               "version": "[9.0.0, )"
             }

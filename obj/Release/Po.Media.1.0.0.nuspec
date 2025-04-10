@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Po.Media</id>
+    <version>1.0.0</version>
+    <authors>Po Jen Su</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/supojen-outlook/Po.Media</projectUrl>
+    <description>This is a Media Uploader (S3)</description>
+    <tags>Media S3</tags>
+    <repository type="git" commit="48eeeed7322a5538d662d073709d1eef84918d33" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="AWSSDK.S3" version="3.7.416.7" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="9.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/supojen/2025/Nuget/Po.Media/bin/Release/net9.0/Po.Media.dll" target="lib/net9.0/Po.Media.dll" />
+    <file src="/Users/supojen/2025/Nuget/Po.Media/README.md" target="/README.md" />
+    <file src="/Users/supojen/2025/Nuget/Po.Media/icon.png" target="/icon.png" />
+  </files>
+</package>
